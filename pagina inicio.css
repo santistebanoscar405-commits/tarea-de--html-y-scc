@@ -4,3 +4,15 @@
     background-color: brown;
 }
 
+ img{
+    width: 350px;
+      position: absolute; 
+      right: 0; 
+      top: 35%;
+ }
+.imgl {
+    width: 350px;
+      position: absolute; 
+      left: 0; 
+      top: 35%;
+ }
