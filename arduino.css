@@ -1,5 +1,12 @@
 body{
     text-align: center;
-    color: rgb(9, 49, 228);
-    background-color: rgb(208, 230, 13); 
+    color: rgb(255, 230, 0);
+    
+     background: url('arudino.img') no-repeat center  / cover;
+   height: 100vh;
 }
+
+button {
+    background: #000000; /* Color de fondo */
+    color: white;  
+} 

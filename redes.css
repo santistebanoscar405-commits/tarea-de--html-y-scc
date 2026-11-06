@@ -1,5 +1,15 @@
 body{
     text-align: center;
-    color: rgb(180, 30, 30);
-    background-color: rgba(6, 7, 7, 0); 
+    color: rgb(10, 8, 8);
+        background: url('redes2.img') no-repeat center center / cover;
+   height: 100vh;
+   
 }
+
+
+  button {
+    background: #18181a; /* Color de fondo */
+    color: rgb(209, 248, 255);  
+} 
+   
+   

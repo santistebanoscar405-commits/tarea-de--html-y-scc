@@ -1,5 +1,13 @@
 body{
     text-align: center;
-    color: rgb(87, 2, 167);
+    color: rgb(255, 254, 255);
     background-color: rgba(177, 22, 130, 0.815); 
+    background: url('logica.img') no-repeat center  / cover;
+   height: 100vh;
 }
+
+
+button {
+    background: #000000; /* Color de fondo */
+    color: white;  
+} 

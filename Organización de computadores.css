@@ -1,5 +1,12 @@
 body{
     text-align: center;
-    color: black;
-    background-color: aqua; 
+    color: rgba(194, 19, 19, 0.925);
+    background: url('67imagen.jpg') no-repeat center  / cover;
+   height: 100vh;
+   
 }
+
+button {
+    background: #000000; /* Color de fondo */
+    color: white;  
+} 

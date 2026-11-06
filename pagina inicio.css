@@ -1,18 +1,13 @@
  body{
     text-align: center;
-    color:black;
-    background-color: brown;
+    color:rgb(226, 226, 226);
+    
+    background: url('QUEQUE.JPG') no-repeat center  / cover;
+   height: 100vh; 
 }
 
- img{
-    width: 350px;
-      position: absolute; 
-      right: 0; 
-      top: 35%;
- }
-.imgl {
-    width: 350px;
-      position: absolute; 
-      left: 0; 
-      top: 35%;
- }
+  button {
+    background: #2f45c2; /* Color de fondo */
+    color: rgb(209, 248, 255);  
+} 
+   

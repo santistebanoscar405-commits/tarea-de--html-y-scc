@@ -1,5 +1,7 @@
 body{
     text-align: center;
-    color: rgb(39, 179, 51);
-    background-color: rgb(35, 13, 230); 
+    color: rgb(5, 5, 5);
+    background-color: rgb(35, 13, 230);
+      background: url('pseint.img') no-repeat center  / cover;
+   height: 100vh;
 }
