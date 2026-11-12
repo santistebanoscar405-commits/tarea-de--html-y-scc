@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="redes.css">
-        <script>href="redes.js"</script>
+        <script src="redes.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,20 +12,20 @@
        <h1>Redes</h1>
        <p>Responde estas 5 preguntas:</p>
        <p class="pregunta">¿Cuantos tipos de Red existen?</p>
-       <button class="btn" onclick="validarOrg(A)">A) Existen 2 tipos de Redes</button>
-       <button class="btn" onclick="validarOrg(B)">B) Existen 3 tipos de Redes</button>
+       <button class="btn" onclick="verificar('Existen 2 tipos de Redes','Existen 3 tipos de Rede')">A) Existen 2 tipos de Redes</button>
+       <button class="btn" onclick="verificar(' Existen 3 tipos de Redes',' Existen 3 tipos de Redes')">B) Existen 3 tipos de Redes</button>
        <p class="pregunta">¿Cuantos modelos de topología de Red existen?</p>
-       <button class="btn" onclick="validarOrg(A)">A) Existen 3 modelos de topología de red</button>
-       <button class="btn" onclick="validarOrg(B)">B) Existen 2 modeslos de topología de red</button>
+       <button class="btn" onclick="verificar('Existen 3 modelos de topología de red','Existen 3 modelos de topología de red')">A) Existen 3 modelos de topología de red</button>
+       <button class="btn" onclick="verificar('Existen 2 modelos de topología de red','Existen 3 modelos de topología de red')">B) Existen 2 modeslos de topología de red</button>
        <p class="pregunta">¿Cuantos tipos de redes inalambricas existen?</p>
-       <button class="btn" onclick="validarOrg(A)">A) Existen 3 tipos de Redes inalambricas</button>
-       <button class="btn" onclick="validarOrg(B)">B) Existen 4 tipos de redes inalambricas</button>
+       <button class="btn" onclick="verificar('Existen 3 tipos de redes inalambricas','Existen 4 tipos de redes inalambricas')">A) Existen 3 tipos de Redes inalambricas</button>
+       <button class="btn" onclick="verificar('Existen 4 tipos de redes inalambricas','Existen 4 tipos de redes inalambricas')">B) Existen 4 tipos de redes inalambricas</button>
        <p class="pregunta">¿Que es un cable UTD?</p>
-       <button class="btn" onclick="validarOrg(A)">A) Son cables de ethernet y cables telefonicos para distancia cortas u medida para transferir datos y audios señales</button>
-       <button class="btn" onclick="validarOrg(B)">B) Se utilizan en medios girgubit convertidores de medios de fibra e interruptores de fibra optica</button>
-       <p class="pregunta">¿Que es una red Lan?</p>
-       <button class="btn" onclick="validarOrg(A)">A) Es una red informatica cuyo alcance se kimita a un espacio fisico reducida,como una casa,departamiento o a lo sumo un edificio</button>
-       <button class="btn" onclick="validarOrg(B)">B) Una LAN es una red global que utiliza satélites para conectar dispositivos ubicados en diferentes países </button>
+       <button class="btn" onclick="verificar('Son cables de ethernet y cables telefonicos para distancia cortas u medida para transferir datos y audios señales','Son cables de ethernet y cables telefonicos para distancia cortas u medida para transferir datos y audios señales')">A) Son cables de ethernet y cables telefonicos para distancia cortas u medida para transferir datos y audios señales</button>
+       <button class="btn" onclick="verificar(' Se utilizan en medios girgubit convertidores de medios de fibra e interruptores de fibra optica','Son cables de ethernet y cables telefonicos para distancia cortas u medida para transferir datos y audios señales')">B) Se utilizan en medios girgubit convertidores de medios de fibra e interruptores de fibra optica</button>
+       <p class="pregunta">¿Existen una red Lan?</p>
+       <button class="btn" onclick="verificar('NO','SI')">A) No</button>
+       <button class="btn" onclick="verificar('SI','SI')">B) Si</button>
        <h1></h1>
        <button onclick="window.location.href= 'pagina inicio.html'">Ir a la pagina de inicio </button>
       
