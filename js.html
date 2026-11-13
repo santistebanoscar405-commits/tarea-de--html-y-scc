@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="js.css">
-    <script>href="js.js"</script>
+    <script src="js.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,20 +12,20 @@
          <h1>Java Script</h1>
          <p>Responde estas 5 preguntas:</p>
          <p class="pregunta">¿ Que signifca js?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) Juan y Jose /button>
-         <button class="btn" onclick="validarOrg(B)">B) Java Script</button>
-         <p class="pregunta">¿Como se escribe un comentario de una sola linea en Java script?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) //Esto es un comentario</button>
-         <button class="btn" onclick="validarOrg(B)">B) Esto es un comentario</button>
+         <button class="btn" onclick="verificar('Juan y Jose','Java Sciprt')">A) Juan y Jose </button>
+         <button class="btn" onclick="verificar('Java Sciprt','Java Sciprt')">B) Java Script</button>
+         <p class="pregunta">¿Cuál de las siguientes palabras clave se utiliza en JavaScript para declarar una variable?</p> 
+         <button class="btn" onclick="verificar('constante(const)','constante(const)')">A) constante(const)</button>
+         <button class="btn" onclick="verificar('dejar(let)','constante(const)')">B) dejar(let)</button>
          <p class="pregunta">¿Para que se utiliza Java Script en el desarollo web?</p>    
-         <button class="btn" onclick="validarOrg(A)">A) Para añadir interactividad y dinamismo a las paginas web</button>
-        <button class="btn" onclick="validarOrg(B)">B) Para diseñar la estructura basica de una pagina web </button>
+         <button class="btn" onclick="verificar('Para añadir interactividad y dinamismo a las paginas web','Para añadir interactividad y dinamismo a las paginas web')">A) Para añadir interactividad y dinamismo a las paginas web</button>
+         <button class="btn" onclick="verificar(' Para diseñar la estructura basica de una pagina web','Para añadir interactividad y dinamismo a las paginas web')">B) Para diseñar la estructura basica de una pagina web </button>
          <p class="pregunta">¿Como se muestra un mensaje en la consola en Java Script? </p>   
-         <button class="btn" onclick="validarOrg(A)">A) echo"Hola";</button>
-         <button class="btn" onclick="validarOrg(B)">B) console.log("Hola")</button>
+         <button class="btn" onclick="verificar('hecho hola;','hecho hola;')">A) hecho"Hola";</button>
+         <button class="btn" onclick="verificar('console.log(hola)','console.log(hola)')">B) console.log("Hola")</button>
          <p class="pregunta">¿cuantas verificaciones de Java Sciprt se necesita cada pagina del proyecto?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) Ninguna </button>
-         <button class="btn" onclick="validarOrg(B)">B) 6</button>
+         <button class="btn" onclick="verificar('Ninguna','3 o mas')">A) Ninguna </button>
+         <button class="btn" onclick="verificar('3 o mas','3 o mas')">B) 3 o mas</button>
          <H1></H1>
          <button onclick="window.location.href= 'pagina inicio.html'">Ir a la pagina de inicio</button>
          

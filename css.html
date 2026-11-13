@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="css.css">
-    <script>href="css.js"</script>
+    <script src="css.js"></script>
     <title>Document</title>
 </head>
 <body>
      <div class="pregunta">
          <h1>Css</h1>
          <p>Responde estas 5 preguntas:</p>
-         <p class="pregunta">¿ Que significa Css?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) Construir Solo Siempre</button>
-         <button class="btn" onclick="validarOrg(B)">B) Cascading Style Sheets </button>
+         <p class="pregunta"> ¿Existe Css?</p> 
+         <button class="btn" onclick="verificar('NO','SI')">A) NO</button>
+         <button class="btn" onclick="verificar('SI','SI')">B) SI </button>
          <p class="pregunta">¿Que etiqueta HTML se utiliza para escribir CSS?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) style</button>
-         <button class="btn" onclick="validarOrg(B)">B) css</button>
+         <button class="btn" onclick="verificar('style','style')">A) style</button>
+         <button class="btn" onclick="verificar('css','style')">B) css</button>
          <p class="pregunta">¿Como centrar los textos?</p>    
-         <button class="btn" onclick="validarOrg(A)">A) text-align: center; </button>
-        <button class="btn" onclick="validarOrg(B)">B) body-center </button>
+         <button class="btn" onclick="verificar('text-align:center;','text-align:center;')">A) text-align: center; </button>
+        <button class="btn" onclick="verificar('body-center','text-align:center;')">B) body-center </button>
          <p class="pregunta">¿Como poner de fondo un color? </p>   
-         <button class="btn" onclick="validarOrg(A)">A) color-fondo</button>
-         <button class="btn" onclick="validarOrg(B)">B) background-color</button>
+         <button class="btn" onclick="verificar('color-fondo','background-color')">A) color-fondo</button>
+         <button class="btn" onclick="verificar('background-color','background-color')">B) background-color</button>
          <p class="pregunta">¿Como poner color a las letras?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) color </button>
-         <button class="btn" onclick="validarOrg(B)">B) letra-color</button>
+         <button class="btn" onclick="verificar('color','color')">A) color </button>
+         <button class="btn" onclick="verificar('letra-color','color')">B) letra-color</button>
          <H1></H1>
          <button onclick="window.location.href= 'pagina inicio.html'">Ir a la pagina de inicio </button>
          

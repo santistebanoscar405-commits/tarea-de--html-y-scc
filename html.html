@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="html.css">
-    <script>href="html.js"</script>
+    <script src="html.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,20 +12,20 @@
          <h1>Html</h1>
          <p>Responde estas 5 preguntas:</p>
          <p class="pregunta">¿Qué etiqueta se utiliza para definir un párrafo de texto en HTML?</p> 
-         <button class="btn" onclick="validarOrg(A)">A) p </button>
-         <button class="btn" onclick="validarOrg(B)">B) par </button>
-         <p class="pregunta">¿Que hacemos en html?</p>
-         <button class="btn" onclick="validarOrg(A)">A) Hacer un texto que el profe nos pidio</button>
-         <button class="btn" onclick="validarOrg(B)">B) No hacer nada</button>
+         <button class="btn" onclick="verificar('p','p')">A) p </button>
+         <button class="btn" onclick="verificar('par','par')">B) par </button>
+         <p class="pregunta">¿Existe html?</p>
+         <button class="btn" onclick="verificar('SI','SI')">A) SI</button>
+         <button class="btn" onclick="verificar('No','SI')">B) No </button>
          <p class="pregunta">¿Qué significan las siglas HTML?</p>
-         <button class="btn" onclick="validarOrg(A)">A) Hacemos Todo Mientras Logramos </button>
-         <button class="btn" onclick="validarOrg(B)">B) Hyper Text Markup Language  </button>
+         <button class="btn" onclick="verificar('Hacemos Todo Mientras Logramos','Hyper Text Markup Language ')">A) Hacemos Todo Mientras Logramos </button>
+         <button class="btn" onclick="verificar('Hyper Text Markup Language','Hyper Text Markup Language')">B) Hyper Text Markup Language  </button>
          <p class="pregunta">¿Cuál es la etiqueta correcta para insertar una imagen en una página web?</p>
-         <button class="btn" onclick="validarOrg(A)">A) imagen </button>
-         <button class="btn" onclick="validarOrg(B)">B) img</button>
+         <button class="btn" onclick="verificar('imagen','img')">A) imagen </button>
+         <button class="btn" onclick="verificar('img','img')">B) img</button>
          <p class="pregunta">¿Cual es el titulo mas grande?</p>
-         <button class="btn" onclick="validarOrg(A)">A) h6</button>
-         <button class="btn" onclick="validarOrg(B)">B) h1</button>
+         <button class="btn" onclick="verificar('h6','h1')">A) h6</button>
+         <button class="btn" onclick="verificar('h1','h1')">B) h1</button>
  
          <H1></H1>
          <button onclick="window.location.href= 'pagina inicio.html'">Ir a la pagina de inicio</button>
