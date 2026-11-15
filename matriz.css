@@ -3,4 +3,19 @@ body{
     color: rgb(255, 255, 255);
      background: url('matriz.img') no-repeat center  / cover;
    height: 100vh; 
+    margin: 200;
+  place-items: center
+}
+
+.matriz {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 10px;
+  padding: 200px;
+  border: 6px solid #020202;
+}
+
+.matriz div {
+  background: #0009;
+  line-height: 60px;  text-align: center;
 }
